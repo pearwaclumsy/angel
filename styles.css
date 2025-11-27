@@ -1,0 +1,21 @@
+/* Shared site styles for hero images and simple gallery */
+.hero {
+  display: block;
+  max-width: 900px;
+  width: 90%;
+  margin: 1.25rem auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  border: 6px solid rgba(255,255,255,0.8);
+}
+
+/* Make gallery images inside memorylane look nice */
+.gallery img, .memory-img {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Small responsive tweaks */
+@media (max-width: 480px) {
+  .hero { width: 95%; }
+}
